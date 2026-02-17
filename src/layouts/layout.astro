@@ -1,6 +1,7 @@
 ---
 import '@fontsource/geist-mono'
 import '../styles/global.css'
+import Analytics from '@vercel/analytics/astro'
 ---
 <html lang="en">
     <head>
@@ -10,6 +11,7 @@ import '../styles/global.css'
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>luismibm</title>
+        <Analytics />
     </head>
     <body class="flex items-center justify-center min-h-screen">
         <main>
