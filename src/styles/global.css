@@ -1,5 +1,7 @@
 @import "tailwindcss";
+@import "@fontsource/geist-mono";
 * {
+    font-family: "Geist Mono", monospace;
     color: orange;
     background-color: black;
 }
